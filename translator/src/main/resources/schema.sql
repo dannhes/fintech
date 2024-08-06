@@ -1,0 +1,7 @@
+CREATE TABLE translations (
+    id BIGINT AUTO_INCREMENT PRIMARY KEY,
+    ip VARCHAR(45) NOT NULL,
+    input_text TEXT NOT NULL,
+    translated_text TEXT NOT NULL,
+    timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
