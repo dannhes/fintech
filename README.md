@@ -7,7 +7,8 @@
 git clone https://github.com/yourusername/translator-web-app.git
 
 2. Соберите проект
-    
+   
+cd translator/    
 mvn clean install
     
 3. Запустите приложение
